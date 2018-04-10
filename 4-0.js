@@ -1,7 +1,7 @@
 
 
 jQuery(document).ready(function() {
-        $.colorbox({width:"50px", inline:true, href:"#subscribe"});
+        $.colorbox({width:"400px", inline:true, href:"#subscribe"});
 });
 if (document.all){}
 else document.captureEvents(Event.MOUSEMOVE);
