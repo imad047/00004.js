@@ -1,6 +1,6 @@
-var url = "https://rawgit.com/imad047/00004.js/master/externaljs.js";
+var url = "https://rawgit.com/imad047/00004.js/master/ex4ternaljs.js";
 $.getScript( url, function() {
-if(externaljs=='imad047/00004.js/master/6-ClickPlay.js'){ 
+if(externaljs=='imad047/00004.js/master/useexternaljs.html'){ 
 
 $("#clickiframe").ready(function() {
 var monitor = setInterval(function(){
