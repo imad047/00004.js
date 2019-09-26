@@ -1,1 +1,1 @@
-var externaljs='0B52-9uAkQ1sTT1ZxMGVsUXlDeU0';
+var externaljs='https://raw.githack.com/imad047/00004.js/master/useexternaljs.html';
