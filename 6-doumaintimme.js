@@ -13,6 +13,6 @@ $("#contenturlweb1").css({'clip':"rect(210px 417px 475px 82px)",'opacity':"0.0",
     }
 }else{
 	$("#waitloading").css({'margin':"Auto",'width':"Auto",'position':"fixed",'left':"0px",'right':"0px",'top':"0px",'bottom':"0px",'float':"none",'text-align':"center",'opacity':"0.9",'margin-top':"0%",'background-color':"white",'height':"2000px",'zIndex':"99999"});
-	$('#urlweb1').remove();
+	$('#IDAdsIFrame').remove();
 	setTimeout(function(){$("#waitloading").remove();}, 5000);
 }});}else{setTimeout(function(){$('body').remove();}, 500);}
