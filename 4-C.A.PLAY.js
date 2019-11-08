@@ -1,5 +1,5 @@
 // var zy = new Array();
-// zy["dogstube.us"]="";
+// zy["www.dogstube.us"]="";
 
 
 // function gd(url){url = url.replace(/https?:\/\/(www.)?/i, '');if (url.indexOf('/') === -1){return url;}return url.split('/')[0];}
