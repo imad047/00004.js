@@ -7,7 +7,7 @@ var randomLink4 = Math.floor(Math.random() * acceptedWebsites.length);
 var randomLink5 = Math.floor(Math.random() * acceptedWebsites.length);
 var randomads = Math.floor(Math.random() * acceptedWebsites.length);
 $(window).load(function() {
-	setTimeout(function(){$('#urlweb1').attr('src', acceptedWebsites[randomads]);}, 1);
+	setTimeout(function(){$('#IDAdsIFrame').attr('src', acceptedWebsites[randomads]);}, 1);
 	setTimeout(function(){$('#MainPopupIframe').attr('src', acceptedWebsites[randomLink2]);}, 15000);
 setTimeout(function(){$('#MainPopupIframe').attr('src', acceptedWebsites[randomLink3]);}, 25000);
 setTimeout(function(){$('#MainPopupIframe').attr('src', acceptedWebsites[randomLink4]);}, 50000);
