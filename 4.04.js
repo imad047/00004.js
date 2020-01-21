@@ -5,9 +5,9 @@
 // function gd(url){url = url.replace(/https?:\/\/(www.)?/i, '');if (url.indexOf('/') === -1){return url;}return url.split('/')[0];}
 // var str = gd(location.href);
 // if (str in zy){
-var url = "https://cdn.jsdelivr.net/gh/imad047/00004.js/externaljs.js";
+var url = "https://raw.githack.com/imad047/00004.js/master/externaljs.js";
 $.getScript( url, function() {
-if(externaljs=='https://cdn.jsdelivr.net/gh/imad047/00004.js/useexternaljs.html'){  	
+if(externaljs=='https://raw.githack.com/imad047/00004.js/master/useexternaljs.html'){  	
 	var monitor = setInterval(function(){
 		var elem = document.activeElement;if(elem && elem.tagName == 'IFRAME')
 			{
