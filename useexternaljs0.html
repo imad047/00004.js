@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.getScript demo</title>
+  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+var url = "https://cdn.jsdelivr.net/gh/imad047/00004.js/externaljs.js";
+$.getScript( url, function() {
+if(externaljs=='https://cdn.jsdelivr.net/gh/imad047/00004.js/useexternaljs.html'){
+    alert('He is '+externaljs);
+  }else{
+   alert('He is not '+externaljs);
+  }  
+});
+</script>
+</head>
+<body>
+
+ 
+</body>
+</html>
